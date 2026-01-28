@@ -1,5 +1,14 @@
 const StockPortfolio = require("./stock-portfolio.js");
 
+/*
+I was able to follow the test-first approach by writing tests that failed at first, 
+then producing code that would pass. By doing this, I was able to give names that were 
+more meaningful for different operations/classifications. This assignment had me brushing up 
+on my javascript skills, so it was hard for me to avoid solely coding rather than pacing myself throug TDD.
+Although it was slower, I did feel like it produced a more polished result compared to me just coding without testing.
+*/
+
+
 describe("StockPortfolio", () => {
     test("2.1: portfolio with no shares and symbols", () => {
         const p = new StockPortfolio();
